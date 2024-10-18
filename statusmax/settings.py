@@ -143,6 +143,7 @@ CHANNEL_LAYERS = {
 
 AUTH_USER_MODEL = "app.User"
 
+CSRF_TRUSTED_ORIGINS = ['https://*.onrender.com','https://*.127.0.0.1']
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
